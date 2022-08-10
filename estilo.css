@@ -1,6 +1,65 @@
 body {
-  background: #97B3ff
+   background: #AAAAAA;
 }
 h1 {
-  text-align: center;
+   text-align: center;
+}
+.caixa1 {
+   position: absolute;
+   background: green;
+   color: #FFFFFF;
+   width: 200px;
+   height: 200px;
+   right: 0;
+   bottom: 0;
+}
+.caixa2 {
+   position: absolute;
+   background: red;
+   color: #FFFFFF;
+   width: 200px;
+   height: 200px;
+   right: 205px;
+   bottom: 0;
+}
+.caixa3 {
+   position: absolute;
+   background: yellow;
+   color: #000000;
+   width: 200px;
+   height: 200px;
+   right: 0;
+   bottom: 205px;
+}
+
+.menuPrincipal {
+   position: relative;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 45px;
+   background: rgb(57, 90, 143);
+   font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul { 
+   list-style: none ;
+   margin: 0;
+   padding: 0%;
+   overflow: 0;
+}
+li {
+   float: left;
+}
+li a {
+   display: block;
+   color: beige;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover {
+   background: hsl(209, 73%, 65%);
+   color: black;
 }
